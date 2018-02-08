@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+     <a name="arriba"></a>
+</head>
+<body>
+	<form action="/my-handling-form-page" method="post"> <!--esta linea no se que es-->
+	 <div>
+        <label for="name">Login:</label>
+        <input type="text" id="Login" minlength="6" maxlength="20" autofocus required pattern="[a-zA-Z0-9]+"/>   <!--falta el empezar por un numero-->
+    </div>
+    <div>
+        <label for="name">Contraseña:</label>
+        <input type="password" id="contraseña1" minlength="8" maxlength="20" required pattern="[a-zA-Z0-9_-]+"/> 
+    </div>
+    <div class="button">
+        
+<a href="registro.html" > <input type="button" name="boton" value="Registro" /> </a> 
+
+    </div>
+    <footer>
+
+        <div class='define'>
+
+           <a href="acerca.html" > <input type="button" name="boton" value="Información de contacto" /> </a> 
+
+
+        </div>
+            <small>&copy; Copyright <time datetime"2018-02-08 13:42:15"> 2018</small>
+
+                <div><a href="#arriba">Ir a la parte de arriba</a></div>
+    </footer>
+</body>
+</html>
